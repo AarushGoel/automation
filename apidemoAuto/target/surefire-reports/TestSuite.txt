@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.693 s <<< FAILURE! - in TestSuite
+checkOutTest.prerequirements  Time elapsed: 26.724 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-09LJIS2', ip: '192.168.29.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\aarus\IdeaProjects..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\aarus\IdeaProjects..., automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7, deviceName: 7c8fc4e7, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 7c8fc4e7, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d18ac8f2-1993-435c-b258-419456db23e5
+	at checkOutTest.prerequirements(checkOutTest.java:77)
+

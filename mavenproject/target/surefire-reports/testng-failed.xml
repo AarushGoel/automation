@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listenerLoan"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="parametername" value="Loan parameter"/>
+    <classes>
+      <class name="carLoanTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="carFailedTest"/>
+          <include name="beforeTestCarLoan"/>
+          <include name="AfterTestCarLoan"/>
+          <include name="afterClassCarloan"/>
+          <include name="beforeClassCarloan"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- carLoanTest -->
+      <class name="homeLoanTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="HomeFailedTest"/>
+          <include name="beforeTestHomeLoan"/>
+          <include name="afterClassHomeloan"/>
+          <include name="AfterTestHomeLoan"/>
+          <include name="afterMethod"/>
+          <include name="beforeClassHomeloan"/>
+        </methods>
+      </class> <!-- homeLoanTest -->
+      <class name="personalLoanTest">
+        <methods>
+          <include name="beforeTestPersonalLoan"/>
+          <include name="beforeClassPersonalloan"/>
+          <include name="AfterTestPersonalLoan"/>
+          <include name="personalFailedTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassPersonalloan"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteLoan"/>
+          <include name="afterSuiteLoan"/>
+        </methods>
+      </class> <!-- personalLoanTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

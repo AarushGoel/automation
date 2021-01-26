@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: carLoanTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.02 s <<< FAILURE! - in carLoanTest
+carLoanTest.carFailedTest  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at carLoanTest.carFailedTest(carLoanTest.java:126)
+
+carLoanTest.parameterCar  Time elapsed: 0.494 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'parametername' is required by @Test on method parameterCar but has not been marked @Optional or defined
+
+

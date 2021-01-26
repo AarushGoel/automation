@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.177" tests="21" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aarus\IdeaProjects\mavenproject\target\test-classes;C:\Users\aarus\IdeaProjects\mavenproject\target\classes;C:\Users\aarus\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\aarus\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\aarus\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\aarus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\aarus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\aarus\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\aarus\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\aarus\AppData\Local\Temp\surefire4809978610656906632\surefirebooter2055119884047346152.jar C:\Users\aarus\AppData\Local\Temp\surefire4809978610656906632 2020-12-23T17-11-41_107-jvmRun1 surefire15709769413593201974tmp surefire_016948266716858574596tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aarus\IdeaProjects\mavenproject\target\test-classes;C:\Users\aarus\IdeaProjects\mavenproject\target\classes;C:\Users\aarus\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\aarus\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\aarus\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\aarus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\aarus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\aarus\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\aarus\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aarus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aarus\IdeaProjects\mavenproject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aarus\AppData\Local\Temp\surefire4809978610656906632\surefirebooter2055119884047346152.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="aarus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aarus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aarus\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\aarus\IdeaProjects\mavenproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\aarus\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\aarus\AppData\Local\Programs\Python\Python38-32\;C:\Users\aarus\AppData\Local\Android\Sdk\tools\bin;C:\Users\aarus\AppData\Local\Android\Sdk\tools;C:\Users\aarus\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\aarus\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\aarus\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\aarus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aarus\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="carFailedTest" classname="carLoanTest" time="0.007">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at carLoanTest.carFailedTest(carLoanTest.java:126)
+]]></failure>
+    <system-out><![CDATA[Before Suite Loan
+Before Test Car Loan Execute
+Before Test Home Loan Execute
+Before Test Personal Loan Execute
+Before Car loan class
+Before Each Test/Method Car Loan Execute
+Test is Failll!!!! Oppsss....
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanLogin[firstusername, firstuserpassword](1)" classname="carLoanTest" time="0.009">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan Login
+firstusername
+firstuserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanLogin[secondusername, seconduserpassword](2)" classname="carLoanTest" time="0.006">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan Login
+secondusername
+seconduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanLogin[thirdusername, thirduserpassword](3)" classname="carLoanTest" time="0.007">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan Login
+thirdusername
+thirduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="parameterCar[Loan parameter](1)" classname="carLoanTest" time="0.006">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan Parameter passed is :Loan parameter
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanView" classname="carLoanTest" time="0.003">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan View
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanSignout" classname="carLoanTest" time="0.006">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+Before Each Test/Method Car Loan Execute
+Car Loan Signout
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalLoanLogin[firstusername, firstuserpassword](1)" classname="personalLoanTest" time="0.011">
+    <system-out><![CDATA[After Each Test/Method Car Loan Execute
+After Car loan class
+Before Personal loan class
+Before Each Test/Method Personal Loan Execute
+Personal Loan Login
+firstusername
+firstuserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalLoanLogin[secondusername, seconduserpassword](2)" classname="personalLoanTest" time="0.018">
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Personal Loan Login
+secondusername
+seconduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalLoanLogin[thirdusername, thirduserpassword](3)" classname="personalLoanTest" time="0.018">
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Personal Loan Login
+thirdusername
+thirduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="parameterPersonal[Loan parameter](1)" classname="personalLoanTest" time="0.006">
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Personal Loan Parameter passed is :Loan parameter
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="personalFailedTest" classname="personalLoanTest" time="0.008">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at personalLoanTest.personalFailedTest(personalLoanTest.java:127)
+]]></failure>
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Test is Failll!!!! Oppsss....
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalLoanView" classname="personalLoanTest" time="0.004">
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Personal Loan View
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalLoanSignout" classname="personalLoanTest" time="0.008">
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+Before Each Test/Method Personal Loan Execute
+Personal Loan Signout
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeFailedTest" classname="homeLoanTest" time="0.004">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at homeLoanTest.HomeFailedTest(homeLoanTest.java:124)
+]]></failure>
+    <system-out><![CDATA[After Each Test/Method Personal Loan Execute
+After Personal loan class
+Before Home loan class
+Before Each Test/Method Home Loan Execute
+Test is Failll!!!! Oppsss....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeLoanLogin[firstusername, firstuserpassword](1)" classname="homeLoanTest" time="0.012">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan Login
+firstusername
+firstuserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeLoanLogin[secondusername, seconduserpassword](2)" classname="homeLoanTest" time="0.008">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan Login
+secondusername
+seconduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeLoanLogin[thirdusername, thirduserpassword](3)" classname="homeLoanTest" time="0.008">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan Login
+thirdusername
+thirduserpassword
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="parameterHome[Loan parameter](1)" classname="homeLoanTest" time="0.009">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan Parameter passed is :Loan parameter
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeLoanView" classname="homeLoanTest" time="0.003">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan View
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+  <testcase name="HomeLoanSignout" classname="homeLoanTest" time="0.003">
+    <system-out><![CDATA[After Each Test/Method Home Loan Execute
+Before Each Test/Method Home Loan Execute
+Home Loan Signout
+Test is success!!!! Great....
+]]></system-out>
+  </testcase>
+</testsuite>

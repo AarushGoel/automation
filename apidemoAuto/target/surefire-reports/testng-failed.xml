@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="C:/Users/aarus/IdeaProjects/apidemoAuto(failed)" verbose="0">
+    <classes>
+      <class name="checkOutTest">
+        <methods>
+          <include name="prerequirements"/>
+        </methods>
+      </class> <!-- checkOutTest -->
+    </classes>
+  </test> <!-- C:/Users/aarus/IdeaProjects/apidemoAuto(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

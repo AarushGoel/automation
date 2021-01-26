@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.177 s <<< FAILURE! - in TestSuite
+carLoanTest.carFailedTest  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at carLoanTest.carFailedTest(carLoanTest.java:126)
+
+personalLoanTest.personalFailedTest  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at personalLoanTest.personalFailedTest(personalLoanTest.java:127)
+
+homeLoanTest.HomeFailedTest  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at homeLoanTest.HomeFailedTest(homeLoanTest.java:124)
+
